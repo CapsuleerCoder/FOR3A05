@@ -124,7 +124,7 @@
 #         number_of_10s += 1
 # print (f"Hæsta einkunn var: {highest}, lægsta einkunn: {lowest}")
 # print (f"5 eða hærri einkunnir voru: {number_5_or_above}, fjöldi 10 einkunna: {number_of_10s}")
-    
+
 #Dæmi 7
 class Sivalning:
     def __init__(self,radius,height):
