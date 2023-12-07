@@ -54,7 +54,7 @@ class Ferhyrningur:
         return self.breidd*self.lengd
 
     def ummál(self):
-        return ((self.breidd + self.lengd )*2)
+        return (self.breidd*2 + self.lengd*2)
 
     def __str__(self):
         return f"Lengd: {self.lengd}, breidd: {self.breidd}"
@@ -65,6 +65,7 @@ def main():
     ummal = kassinn.ummál()
     print (f"Ummálið er: {ummal}")
     print (f"Flatarmálið er: {kassinn.flatarmál()}")
+
 main()
 
 
