@@ -1,0 +1,8 @@
+
+11101 er 29. 
+Þetta sést á því að tölurnar tákna 1 eða 0 sinnum 2 í einhverju veldi, frá hægri 
+byrja veldin á 0 og hækka svo um einn eftir því sem við færumst til vinstri.
+
+þannig að 11101 er í raun 1*2^0+0*2^1+1*2^2+1*2^3+1*2^4
+ = 1+0+4+8+16 = 29
+
